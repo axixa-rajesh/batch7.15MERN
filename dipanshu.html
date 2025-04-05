@@ -1,0 +1,16 @@
+<label for="a">value1: </label>
+<input type="number" id="a">
+<label for="b">value2:</label>
+    <input type="number" id="b">
+
+    <button onclick="saap()">Swap </button>
+
+    <script>
+        function saap() {
+            let c;
+            c = a.value;
+            a.value = b.value;
+            b.value = c;
+
+        }
+    </script>

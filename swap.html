@@ -1,0 +1,13 @@
+<label for="a">Value 1:</label>
+<input type="number" id="a">
+<label for="b">Value 2:</label>
+<input type="number" id="b">
+<button onclick="swap()">Swap</button>
+<script>
+    function swap(){
+        let c;
+        c=a.value;
+        a.value=b.value;
+        b.value=c;
+    }
+</script>
